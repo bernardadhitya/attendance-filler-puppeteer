@@ -1,6 +1,7 @@
 const puppeteer = require ('puppeteer');
 
-const formURL = 'https://bit.ly/Absen_IT_DM';
+const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSerKhjHwNyMOJCtp36sgpdf7kSZ0d_mFbCCmGxBnU1B4Yf_Nw/viewform';
+
 const dropDownRootElemSelector = 'div.quantumWizMenuPaperselectEl';
 const nik = '21059319';
 
@@ -82,7 +83,7 @@ const nik = '21059319';
     await page.keyboard.press('Space')
 
     //Submit form
-    // await page.keyboard.press('Tab')
-    // await page.waitFor(250)
-    // await page.keyboard.press('Space')
+    await page.keyboard.press('Tab')
+    await page.waitFor(250)
+    await page.keyboard.press('Space')
 })()
