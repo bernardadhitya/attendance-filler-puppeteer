@@ -58,7 +58,6 @@ const nik = '21059319';
     await page.waitFor(250)
     await page.keyboard.press('ArrowDown')
     await page.waitFor(250)
-    await page.keyboard.press('Space')
 
     //Skip WFO location
     await page.waitFor(250)
@@ -72,17 +71,22 @@ const nik = '21059319';
     await page.waitFor(250)
     await page.keyboard.press('ArrowDown')
     await page.waitFor(250)
-    await page.keyboard.press('Enter')
+    await page.keyboard.press('Space')
     await page.waitFor(250)
 
     //Fill body temperature
     await page.keyboard.press('Tab')
     await page.waitFor(250)
-    await page.keyboard.press('Tab')
+    await page.keyboard.press('ArrowDown')
     await page.waitFor(250)
     await page.keyboard.press('Space')
 
     //Submit form
+    await page.keyboard.press('Tab')
+    await page.waitFor(250)
+    await page.keyboard.press('ArrowDown')
+    await page.waitFor(250)
+
     await page.keyboard.press('Tab')
     await page.waitFor(250)
     await page.keyboard.press('Space')
