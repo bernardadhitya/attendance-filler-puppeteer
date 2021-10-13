@@ -7,7 +7,7 @@ const nik = '21059319';
 
 (async () => {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       devtools: false
     })
 
