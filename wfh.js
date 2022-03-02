@@ -4,7 +4,7 @@ const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSerKhjHwNyMOJCtp36sgpd
 
 (async () => {
     const browser = await puppeteer.launch({
-      headless: false,
+      headless: true,
       devtools: false
     })
 
