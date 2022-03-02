@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/bernardadhitya/attendance-filler-puppeteer#readme",
   "dependencies": {
+    "moment": "^2.29.1",
     "puppeteer": "^10.1.0"
   }
 }
