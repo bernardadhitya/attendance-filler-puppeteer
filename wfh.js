@@ -71,7 +71,7 @@ const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSerKhjHwNyMOJCtp36sgpd
     await page.keyboard.press('Tab')
     await page.waitFor(250)
 
-    //Fill condition
+    // Fill condition
     await page.keyboard.press('Tab')
     await page.waitFor(250)
     await page.keyboard.press('Space')
@@ -94,7 +94,7 @@ const formURL = 'https://docs.google.com/forms/d/e/1FAIpQLSerKhjHwNyMOJCtp36sgpd
     await page.waitFor(250)
     await page.keyboard.press('ArrowDown')
     await page.waitFor(250)
-
+    
     await page.keyboard.press('Tab')
     await page.waitFor(250)
     await page.keyboard.press('Space')
